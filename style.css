@@ -1,0 +1,146 @@
+/* GLOBAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  color: #222;
+}
+
+/* HERO */
+.hero {
+  background: #1e293b;
+  color: white;
+  padding: 1.5rem 0;
+}
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* nav + logo */
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+nav a {
+  margin-left: 1rem;
+  font-size: 0.9rem;
+  color: white;
+  text-decoration: none;
+}
+
+/* hero main row */
+.hero-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+.hero-text h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+.hero-text p {
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+  opacity: 0.8;
+}
+.btn {
+  background: #2563eb;
+  padding: 0.6rem 1.2rem;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+/* placeholder graphic */
+.hero-image .placeholder {
+  background: #7a7a7a;
+  width: 300px;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+/* FEATURES */
+.features {
+  text-align: center;
+  padding: 2rem 0;
+}
+.features h2 {
+  margin-bottom: 1rem;
+}
+.grid {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.card {
+  width: 22%;
+  text-align: center;
+}
+.card .icon {
+  display: block;
+  margin: auto;
+  width: 70px;
+  height: 70px;
+  border: 3px solid #2563eb;
+  border-radius: 8px;
+  margin-bottom: 0.6rem;
+}
+.card p {
+  font-size: 0.85rem;
+  opacity: 0.7;
+}
+
+/* QUOTE */
+.quote {
+  background: #e2e8f0;
+  padding: 2rem;
+  text-align: center;
+  font-style: italic;
+}
+.quote span {
+  display: block;
+  margin-top: 1rem;
+  font-weight: bold;
+  text-align: right;
+}
+
+/* CTA */
+.cta {
+  background: #2563eb;
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+}
+.btn-outline {
+  border: 2px solid white;
+  padding: 0.5rem 1.2rem;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 0.8rem;
+  display: inline-block;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #1e293b;
+  color: white;
+  font-size: 0.85rem;
+}
